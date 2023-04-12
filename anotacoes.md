@@ -31,3 +31,8 @@ Pacote para esconder a secret key: pip install python-dotenv
 4: load_dotenv()
 5: apagar a secrevt key de manage.py
 6: em manage.py alterar a secret key para = str(os.getenv('SECRET_KEY'))
+
+
+Criação de apps
+1: python manage.gy start app "nome_do_app"
+2: Em settings.py, installed_apps inserir o nome do app em aspas simples
